@@ -1,0 +1,38 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newEvent{
+    width: 150px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.input-filter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7.5px;
+    width: 250px;
+
+}

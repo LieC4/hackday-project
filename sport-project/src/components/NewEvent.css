@@ -1,0 +1,42 @@
+.text {
+ width: 200px;
+ border: 2px solid black;
+ border-radius: 10px;
+}
+
+.submit {
+width: 200px;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+
+.form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-top: 10px;
+align-items: center;
+justify-content: center;
+
+width:350px;
+}
+
+.mainForm {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.backButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}

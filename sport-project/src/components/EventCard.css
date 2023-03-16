@@ -1,0 +1,110 @@
+.card-container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(203, 234, 233);
+  }
+  
+  article {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  
+  article img {
+    margin: auto;
+    max-width: 80px;
+    border: solid var(--background) 4px;
+    border-radius: 50%;
+    margin-top: 75px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    color: var(--color-font-secondary);
+  }
+  
+  .normal-text {
+    font-weight: normal;
+    font-size: 0.95rem;
+    text-align: center;
+    padding-bottom: 10px;
+    color: var(--color-font-secondary);
+  }
+  
+  /* SOCIAL STATS */
+  .smaller-text {
+    font-weight: normal;
+    font-size: 0.7rem;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    line-height: 5px;
+  }
+  
+  .social-container {
+    display: flex;
+    border-top: solid rgb(0, 0, 0) 1px;
+    justify-content: space-around;
+  }
+  
+  .divboton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .social-element {
+    max-width: 50px;
+  }
+  
+  .social-element a {
+    max-width: 50px;
+  }
+  
+  .social-container img {
+    margin-top: 10px;
+    width: 40px;
+  }
+
+  button{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  button:hover{
+    background: white;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+    box-shadow: 4px 4px;
+  }
+
+  .goTo{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 5px;
+  }
+
+  .goTo:hover{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+  }
